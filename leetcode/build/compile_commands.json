@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/Code/vscode-workspaces/CPP_Training/leetcode/build",
+  "command": "/bin/c++    -g   -o CMakeFiles/leetcode.dir/main.cpp.o -c /home/Code/vscode-workspaces/CPP_Training/leetcode/main.cpp",
+  "file": "/home/Code/vscode-workspaces/CPP_Training/leetcode/main.cpp"
+}
+]

@@ -9,6 +9,8 @@ class A
 public:
     A() {};
 
+    int g;
+
     A(A&& aa) noexcept 
     {
         std::cout << "Move!\n";
@@ -26,9 +28,17 @@ int main()
 
     forward<A>(A());
 
+    const A cc;
+    my_forward(cc);
+
+    A ccc();
+
     A a;
     A b(forward<A>(a));
+    A d(forward<A>(A()));
     A c(a);
+
+    int i = 0;
 
     //move(A());
 

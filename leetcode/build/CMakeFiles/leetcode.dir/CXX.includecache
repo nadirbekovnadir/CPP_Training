@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/Code/vscode-workspaces/CPP_Training/leetcode/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+list
+-
+numeric
+-
+queue
+-
+unordered_map
+-
+
