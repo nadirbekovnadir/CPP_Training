@@ -1,3 +1,5 @@
+import networks;
+
 #include <boost/graph/named_function_params.hpp>
 #include <boost/pending/property.hpp>
 #include <iostream>
@@ -90,4 +92,6 @@ int main(int, char**) {
     // );
 
     DoRandomStaff();
+
+    std::cout << A::Add(4, 7);
 }
