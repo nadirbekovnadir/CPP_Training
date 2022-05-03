@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/Code/vscode-workspaces/CPP_Training/MoveAndForward/build",
-  "command": "/bin/g++-9    -g   -o CMakeFiles/MoveAndForward.dir/MoveAndForward.cpp.o -c /home/Code/vscode-workspaces/CPP_Training/MoveAndForward/MoveAndForward.cpp",
-  "file": "/home/Code/vscode-workspaces/CPP_Training/MoveAndForward/MoveAndForward.cpp"
-}
-]

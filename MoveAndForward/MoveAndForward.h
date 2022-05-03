@@ -1,11 +1,13 @@
 #pragma once
 
+#include <iostream>
+#include <memory>
+#include <ostream>
+
 #define DEBUG
 
-#include <memory>
-
 template <class T, class A1>
-std::shared_ptr<T> factory(A1&& a1)   // версия с одним аргументом
+std::shared_ptr<T> factory(A1&& a1)   // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 {
     return std::shared_ptr<T>(new T(std::forward(a1)));
 }
@@ -35,6 +37,7 @@ template<class T>
 T&& forward(typename remove_reference<T>::type& t) noexcept 
 {
 #ifdef DEBUG
+    std::cout << typeid(T).name() << std::endl;
     std::cout << "forward(T& t)\n";
 #endif // DEBUG
 
@@ -45,6 +48,7 @@ template<class T>
 constexpr T&& forward(std::remove_reference_t<T>&& t) noexcept
 {
 #ifdef DEBUG
+    std::cout << typeid(T).name() << std::endl;
     std::cout << "forward(T&& t)\n";
 #endif // DEBUG
 

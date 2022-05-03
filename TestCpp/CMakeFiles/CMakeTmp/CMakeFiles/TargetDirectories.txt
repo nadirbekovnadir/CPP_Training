@@ -1,0 +1,3 @@
+/mnt/c/Users/Nadir/Documents/Repositories/cpp/TestCpp/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_409c2.dir
+/mnt/c/Users/Nadir/Documents/Repositories/cpp/TestCpp/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Nadir/Documents/Repositories/cpp/TestCpp/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir

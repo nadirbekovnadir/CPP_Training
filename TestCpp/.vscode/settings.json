@@ -6,13 +6,13 @@
     "--log=verbose",
     "--pretty",
     "--background-index",
-    "--compile-commands-dir=/tmp/build/move-and-forward",
+    "--compile-commands-dir=/tmp/build/test-cpp-build",
     "--clang-tidy"
   ],
-  "cmake.buildDirectory": "/tmp/build/move-and-forward",
+  "cmake.buildDirectory": "/tmp/build/test-cpp-build",
   "cmake.configureOnOpen": false,
   "cmake.configureSettings": {
-    "TARGET_SERVICES": "move-and-forward"
+    "TARGET_SERVICES": "test-cpp"
   },
   "cmake.generator": "Unix Makefiles"
 }
